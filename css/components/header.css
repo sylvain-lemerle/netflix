@@ -1,0 +1,30 @@
+.header {
+  height: 64px;
+}
+
+.header img {
+  height: 37px;
+  width: 133px;
+}
+
+.header a {
+  background-color: #E50A13;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 7px 17px;
+  margin: 8px 0px 0px;
+  border-radius: 3px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  float: right;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 767.98px) {
+    .header a{padding: 0px 0px;}
+}
+
+.background {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.8) 100%), url(../../images/fond.jpg);
+  height: 652px;
+}
